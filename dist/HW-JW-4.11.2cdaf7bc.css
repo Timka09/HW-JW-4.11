@@ -1,0 +1,48 @@
+#timerDisplay {
+  margin: 20px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.animate {
+  animation: .5s infinite pulse;
+}
+
+@keyframes pulse {
+  0% {
+    color: #000;
+    transform: scale(1);
+  }
+
+  50% {
+    color: red;
+    transform: scale(1.2);
+  }
+
+  100% {
+    color: #000;
+    transform: scale(1);
+  }
+}
+
+#restartButton:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.container {
+  text-align: center;
+  flex-direction: column;
+  justify-self: center;
+  display: flex;
+}
+
+button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  box-shadow: 0 10px 6px #0000004d;
+}
+/*# sourceMappingURL=HW-JW-4.11.2cdaf7bc.css.map */
